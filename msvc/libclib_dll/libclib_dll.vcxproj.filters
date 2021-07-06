@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{83744870-BBEC-4A6B-8CDC-3CF6C9F252CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="clib">
+      <UniqueIdentifier>{CE46C98E-D974-423F-9848-42E25EF28E15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{D3A2C8F4-B2C8-4EF6-AFF6-B2F2771F1D01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\common\unitypes.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\clib\clib_api.h">
+      <Filter>clib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\clib\clib_def.h">
+      <Filter>clib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\clib\clib_i.h">
+      <Filter>clib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="prepare.bat" />
+    <None Include="update.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\clib\clib.c">
+      <Filter>clib</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
